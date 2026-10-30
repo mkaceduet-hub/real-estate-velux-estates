@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="en">
+
+  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Velux Estates - premium real estate HTML Website">
+    <title>Velux Estates - The art of arriving home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&amp;family=DM+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+
+  <body>
+    <header class="site-nav">
+      <div class="nav-inner">
+        <a class="brand-mark" href="index.html" aria-label="Velux Estates home"><span class="brand-symbol"><span></span></span><span class="brand-name">Velux</span><span class="brand-sub">ESTATES</span></a>
+        <nav class="nav-links" id="siteMenu">
+			<a href="#propertySearch">Search homes</a>
+			<a href="#about">About</a>
+			<a href="#projects">Our collection</a>
+			<a href="#services">Services</a>
+			<a href="#amenities">Amenities</a>
+			<a href="#team">Team</a>
+			<a href="#journal">Journal</a>
+		</nav>
+        <a class="nav-cta" href="#contact">Book a private viewing <span>↗</span></a>
+        <button class="mobile-menu" id="menuToggle" aria-label="Toggle menu">☰</button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero-section">
+        <div class="hero-slides">
+          <div class="hero-slide active" style="background-image:url(assets/img/slider/1.jpg)"></div>
+          <div class="hero-slide" style="background-image:url(assets/img/slider/2.jpg)"></div>
+          <div class="hero-slide" style="background-image:url(assets/img/slider/3.jpg)"></div>
+          <div class="hero-slide" style="background-image:url(assets/img/slider/4.jpg)"></div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-grain"></div>
+        <div class="container hero-inner">
+          <div class="hero-copy reveal">
+            <div class="eyebrow eyebrow-light"><span class="eyebrow-dot"></span>The art of arriving home</div>
+            <h1>Live a little<br><em>more beautifully.</em></h1>
+            <p>Distinctive homes for the quietly discerning.<br>Presented by Velux Estates.</p><a class="button button-light" href="#projects">Explore residences <span>↘</span></a>
+          </div>
+          <div class="hero-note"><button id="heroPrev" aria-label="Previous hero slide">←</button><span id="heroIndex">01 / 04</span><i></i><span id="heroLocation">Gulshan · Dhaka</span><button id="heroNext" aria-label="Next hero slide">→</button></div>
+          <div class="hero-dots" id="heroDots"><button class="active" data-slide="0" aria-label="Hero slide 1"></button><button data-slide="1" aria-label="Hero slide 2"></button><button data-slide="2" aria-label="Hero slide 3"></button><button data-slide="3" aria-label="Hero slide 4"></button></div>
+        </div><a class="scroll-cue" href="#projects">Scroll to discover <span>↘</span></a>
+      </section>
+
+      <section class="search-section section-pad" id="propertySearch">
+        <div class="container">
+          <div class="search-card reveal">
+            <div class="search-heading">
+              <div>
+                <div class="eyebrow">Find your next address</div>
+                <h2>Search by the<br><em>way you live.</em></h2>
+              </div>
+              <p>Start with a feeling, a location or a little more room to breathe. We’ll help you narrow the search with confidence.</p>
+            </div>
+            <form class="property-search-form" id="propertySearchForm"><label>Looking for<select name="type">
+                  <option>Any property type</option>
+                  <option>Apartment</option>
+                  <option>Villa</option>
+                  <option>Retreat</option>
+                  <option>Landmark residence</option>
+                </select></label><label>Preferred location<select name="location">
+                  <option>Any location</option>
+                  <option>Gulshan</option>
+                  <option>Banani</option>
+                  <option>Baridhara</option>
+                  <option>Cox's Bazar</option>
+                </select></label><label>Bedrooms<select name="beds">
+                  <option>Any bedrooms</option>
+                  <option>2 bedrooms</option>
+                  <option>3 bedrooms</option>
+                  <option>4+ bedrooms</option>
+                </select></label><label>Budget<select name="budget">
+                  <option>Any budget</option>
+                  <option>$ 2–4 Cr</option>
+                  <option>$ 4–7 Cr</option>
+                  <option>$ 7 Cr+</option>
+                </select></label><button class="button button-primary" type="submit">Show residences <span>↗</span></button></form>
+            <p class="search-result" id="searchResult">Showing our most considered addresses.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-section section-pad" id="about">
+        <div class="container about-grid">
+          <div class="about-image reveal"><img src="assets/img/about-img.jpg" alt="Velux considered interior"><span>Since 2007 · Dhaka</span></div>
+          <div class="about-copy reveal">
+            <div class="eyebrow">A different kind of developer</div>
+            <h2>Built around<br><em>belonging.</em></h2>
+            <p>Velux is a design-led real estate studio creating residences with a rare sense of calm. We bring together architecture, landscape and service to make places that become part of how you live.</p>
+            <p>Every address begins with a simple question: what would make everyday life feel more considered?</p><a class="text-link" href="#services">Our philosophy <span>↗</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="video-section">
+        <div class="video-backdrop"></div>
+        <div class="video-overlay"></div>
+        <div class="container video-inner reveal">
+          <div class="eyebrow eyebrow-light">A film by Velux</div>
+          <h2>Come home<br><em>to a feeling.</em></h2><button class="video-play" id="videoPlay" aria-label="Play Velux film">▶</button>
+          <p>Watch the 60-second story</p>
+        </div>
+      </section>
+
+      <section class="intro-section section-pad">
+        <div class="container intro-grid">
+          <div class="intro-kicker reveal"><span class="section-index">01</span><span class="vertical-line"></span><span>Not just a home.<br>A point of view.</span></div>
+          <div class="intro-copy reveal">
+            <div class="eyebrow">The Velux standard</div>
+            <h2>Some places stay<br><em>with you.</em></h2>
+            <p>We believe a home should do more than hold your life. It should shape how you feel within it - calm, inspired, completely yourself. So we create and curate addresses with a little more soul.</p><a class="text-link" href="#services">Discover our approach <span>↗</span></a>
+          </div>
+          <div class="intro-art reveal">
+            <div class="art-orbit"><b></b><span>Est. 2007 · By design</span></div><em>A slower, richer way<br>to see the everyday.</em>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects-section section-pad section-dark">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div>
+              <div class="eyebrow eyebrow-light">The collection</div>
+              <h2>Addresses with<br><em>intention.</em></h2>
+            </div>
+            <div class="heading-side">
+              <p>A limited edit of residences, retreats and city sanctuaries - each one selected for its sense of place.</p><a class="text-link light-link" href="#contact">View all residences <span>↗</span></a>
+            </div>
+          </div>
+          <div class="filter-row reveal"><span>Browse by</span><button class="filter-active" data-filter="all">All homes</button><button data-filter="residences">Residences</button><button data-filter="urban">Urban living</button><button data-filter="retreats">Retreats</button></div>
+          <div class="project-grid">
+            <article class="project-card reveal" data-category="residences" data-title="Aurelia House" data-location="Gulshan, Dhaka" data-description="A quiet collection of 18 sky-lit residences shaped around a private courtyard and the slow rituals of beautiful living." data-image="assets/img/projects/1.jpg">
+              <div class="project-image-wrap"><img src="assets/img/projects/1.jpg" alt="Aurelia House"><span class="project-status">Now showing</span><button class="round-action">↗</button></div>
+              <div class="project-info">
+                <div><small>Gulshan, Dhaka</small>
+                  <h3>Aurelia House</h3>
+                </div><span>From $ 8.4 Cr</span>
+              </div>
+              <div class="project-details"><span>3–5 beds</span><span>3,180–5,450 sq ft</span><span>2026 handover</span></div>
+            </article>
+            <article class="project-card reveal" data-category="urban" data-title="The Linden" data-location="Banani, Dhaka" data-description="A considered urban address where biophilic details, warm materials and a generous social lobby make city living feel effortless." data-image="assets/img/projects/2.jpg">
+              <div class="project-image-wrap"><img src="assets/img/projects/2.jpg" alt="The Linden"><span class="project-status">Limited release</span><button class="round-action">↗</button></div>
+              <div class="project-info">
+                <div><small>Banani, Dhaka</small>
+                  <h3>The Linden</h3>
+                </div><span>From $ 3.9 Cr</span>
+              </div>
+              <div class="project-details"><span>2–4 beds</span><span>1,860–3,620 sq ft</span><span>2027 handover</span></div>
+            </article>
+            <article class="project-card reveal" data-category="retreats" data-title="Noma Bay Villas" data-location="Cox's Bazar, Bangladesh" data-description="Low-slung villas between forest and sea, designed as a private escape with a resort-level sense of arrival." data-image="assets/img/projects/3.jpg">
+              <div class="project-image-wrap"><img src="assets/img/projects/3.jpg" alt="Noma Bay Villas"><span class="project-status">Pre-launch</span><button class="round-action">↗</button></div>
+              <div class="project-info">
+                <div><small>Cox's Bazar, Bangladesh</small>
+                  <h3>Noma Bay Villas</h3>
+                </div><span>From $ 6.2 Cr</span>
+              </div>
+              <div class="project-details"><span>3–4 beds</span><span>2,980–4,250 sq ft</span><span>2028 handover</span></div>
+            </article>
+            <article class="project-card reveal" data-category="residences" data-title="Serein Residences" data-location="Baridhara, Dhaka" data-description="A softly sculpted residence where generous proportions and garden-facing interiors create a sense of composed calm." data-image="assets/img/projects/4.jpg">
+              <div class="project-image-wrap"><img src="assets/img/projects/4.jpg" alt="Serein Residences"><span class="project-status">Now showing</span><button class="round-action">↗</button></div>
+              <div class="project-info">
+                <div><small>Baridhara, Dhaka</small>
+                  <h3>Serein Residences</h3>
+                </div><span>From $ 4.7 Cr</span>
+              </div>
+              <div class="project-details"><span>3–4 beds</span><span>2,420–3,880 sq ft</span><span>2026 handover</span></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="statement-section">
+        <div class="statement-image"></div>
+        <div class="statement-overlay"></div>
+        <div class="container statement-inner reveal">
+          <div>
+            <div class="eyebrow eyebrow-light">The Velux feeling</div>
+            <h2>“The details are<br><em>not the details.</em><br>They make the design.”</h2>
+            <p>- Charles Eames</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="services-section section-pad">
+        <div class="container">
+          <div class="section-heading service-heading reveal">
+            <div>
+              <div class="eyebrow">Beyond the square footage</div>
+              <h2>A more personal<br><em>way to arrive.</em></h2>
+            </div>
+            <p>Every Velux relationship is considered from the first hello to long after the keys are yours.</p>
+          </div>
+          <div class="service-list">
+            <article class="service-row reveal" data-title="Find your place" data-location="Private search" data-description="A concierge-led search for the rare places that align with your rhythm, aspirations and long-term view." data-image="assets/img/service/1.jpg"><b>01</b><span class="service-icon">⌖</span>
+              <div><small>Private search</small>
+                <h3>Find your place</h3>
+              </div>
+              <p>A concierge-led search for the rare places that align with your rhythm, aspirations and long-term view.</p><button>↗</button>
+            </article>
+            <article class="service-row reveal" data-title="Shape the vision" data-location="Design advisory" data-description="Thoughtful interior direction, from the first material sample to the last piece placed with intention." data-image="assets/img/service/2.jpg"><b>02</b><span class="service-icon">✦</span>
+              <div><small>Design advisory</small>
+                <h3>Shape the vision</h3>
+              </div>
+              <p>Thoughtful interior direction, from the first material sample to the last piece placed with intention.</p><button>↗</button>
+            </article>
+            <article class="service-row reveal" data-title="Make it yours" data-location="Ownership care" data-description="A quietly capable aftercare team that keeps the details of ownership beautifully in hand." data-image="assets/img/service/3.jpg"><b>03</b><span class="service-icon">◇</span>
+              <div><small>Ownership care</small>
+                <h3>Make it yours</h3>
+              </div>
+              <p>A quietly capable aftercare team that keeps the details of ownership beautifully in hand.</p><button>↗</button>
+            </article>
+          </div>
+        </div>
+      </section>
+	  
+      <section class="amenities-section section-pad" id="amenities">
+        <div class="container">
+          <div class="amenity-heading reveal">
+            <div class="amenity-pill">Our Amenities</div>
+            <h2>Building Amenities</h2>
+            <p>Thoughtful details that make your everyday feel effortless, connected and beautifully supported.</p>
+          </div>
+          <div class="amenities-grid amenity-grid-eight">
+            <article class="amenity-tile reveal" tabindex="0" data-title="Parking Space" data-location="Lifestyle amenity" data-description="Secure, accessible parking with dedicated arrival bays for residents and guests." data-image="assets/img/amenities/1.jpg"><span class="amenity-round">⌂</span>
+              <h3>Parking Space</h3><button aria-label="Parking Space details">→</button>
+            </article>
+            <article class="amenity-tile reveal" tabindex="0" data-title="Swimming Pool" data-location="Wellness amenity" data-description="A calm, beautifully maintained pool designed for morning laps, slow afternoons and restorative evenings." data-image="assets/img/amenities/2.jpg"><span class="amenity-round">≋</span>
+              <h3>Swimming Pool</h3><button aria-label="Swimming Pool details">→</button>
+            </article>
+            <article class="amenity-tile reveal" tabindex="0" data-title="Private Security" data-location="Peace of mind" data-description="A discreet, 24-hour security team and monitored access designed around your peace of mind." data-image="assets/img/amenities/3.jpg"><span class="amenity-round">♢</span>
+              <h3>Private Security</h3><button aria-label="Private Security details">→</button>
+            </article>
+            <article class="amenity-tile reveal" tabindex="0" data-title="Medical Center" data-location="Resident care" data-description="On-site wellness support and trusted medical access, available when you need it most." data-image="assets/img/amenities/4.jpg"><span class="amenity-round">♧</span>
+              <h3>Medical Center</h3><button aria-label="Medical Center details">→</button>
+            </article>
+            <article class="amenity-tile reveal" tabindex="0" data-title="Library Area" data-location="Shared space" data-description="A warm, quiet library lounge for reading, working and making room for a slower rhythm." data-image="assets/img/amenities/5.jpg"><span class="amenity-round">▥</span>
+              <h3>Library Area</h3><button aria-label="Library Area details">→</button>
+            </article>
+            <article class="amenity-tile reveal" tabindex="0" data-title="King Size Beds" data-location="Interior comfort" data-description="Thoughtfully proportioned bedrooms and premium sleep details for deeply restful nights." data-image="assets/img/amenities/6.jpg"><span class="amenity-round">⌂</span>
+              <h3>King Size Beds</h3><button aria-label="King Size Beds details">→</button>
+            </article>
+            <article class="amenity-tile reveal" tabindex="0" data-title="Smart Homes" data-location="Connected living" data-description="Lighting, climate and security controls designed to respond intuitively to the way you live." data-image="assets/img/amenities/7.jpg"><span class="amenity-round">♧</span>
+              <h3>Smart Homes</h3><button aria-label="Smart Homes details">→</button>
+            </article>
+            <article class="amenity-tile reveal" tabindex="0" data-title="Kid’s Playground" data-location="Family living" data-description="A safe, playful landscape where younger residents can move, explore and make friends." data-image="assets/img/amenities/8.jpg"> <span class="amenity-round">♜</span>
+              <h3>Kid’s Playground</h3><button aria-label="Kid’s Playground details">→</button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="numbers-section section-pad">
+        <div class="container">
+          <div class="counter-heading reveal">
+            <div>
+              <div class="eyebrow">A little perspective</div>
+              <h2>Good things take<br><em>time.</em></h2>
+            </div>
+            <p>And the right people. For nearly two decades, we have been building a quieter kind of legacy - one defined by trust, taste and the places we leave better.</p>
+          </div>
+          <div class="counter-grid">
+            <div class="counter-item reveal"><strong data-count="18">0</strong><span>Years of considered craft</span></div>
+            <div class="counter-item reveal"><strong data-count="42">0</strong><span>Distinctive addresses</span></div>
+            <div class="counter-item reveal"><strong data-count="97" data-suffix="%">0</strong><span>Referral-led relationships</span></div>
+            <div class="counter-item counter-note reveal"><span>With care,</span><strong>Velux</strong></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="team-section section-pad" id="team">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div>
+              <div class="eyebrow">The people behind the places</div>
+              <h2>A team with<br><em>good instincts.</em></h2>
+            </div>
+            <p class="team-lead">Architects, advisors and operators united by a belief that the best homes are made with care.</p>
+          </div>
+          <div class="team-grid">
+            <article class="team-card reveal" tabindex="0" data-title="Ayan Rahman" data-location="Founder & Creative Director" data-description="Ayan sets Velux’s creative direction, bringing architecture, landscape and hospitality into one considered point of view." data-image="assets/img/team/1.jpg"><img src="assets/img/team/1.jpg" alt="Ayan Rahman">
+              <h3>Ayan Rahman</h3><small>Founder & Creative Director</small>
+              <div class="team-social"><a href="#team" aria-label="LinkedIn">in</a><a href="#team" aria-label="Instagram">ig</a></div>
+            </article>
+            <article class="team-card reveal" tabindex="0" data-title="Nadia Karim" data-location="Director, Private Clients" data-description="Nadia guides each private client relationship with warmth, discretion and a deep understanding of what makes a place feel like home." data-image="assets/img/team/2.jpg"><img src="assets/img/team/2.jpg" alt="Nadia Karim">
+              <h3>Nadia Karim</h3><small>Director, Private Clients</small>
+              <div class="team-social"><a href="#team" aria-label="LinkedIn">in</a><a href="#team" aria-label="Instagram">ig</a></div>
+            </article>
+            <article class="team-card reveal" tabindex="0" data-title="Rafi Chowdhury" data-location="Head of Development" data-description="Rafi leads the development process, protecting the quality of every detail from first sketch to final handover." data-image="assets/img/team/3.jpg"><img src="assets/img/team/3.jpg" alt="Rafi Chowdhury">
+              <h3>Rafi Chowdhury</h3><small>Head of Development</small>
+              <div class="team-social"><a href="#team" aria-label="LinkedIn">in</a><a href="#team" aria-label="Instagram">ig</a></div>
+            </article>
+            <article class="team-card reveal" tabindex="0" data-title="Maya Sen" data-location="Design & Experience Lead" data-description="Maya shapes the sensory details, material palettes and resident experience that give each Velux address its character." data-image="assets/img/team/4.jpg"><img src="assets/img/team/4.jpg" alt="Maya Sen">
+              <h3>Maya Sen</h3><small>Design & Experience Lead</small>
+              <div class="team-social"><a href="#team" aria-label="LinkedIn">in</a><a href="#team" aria-label="Instagram">ig</a></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonial-section section-pad">
+        <div class="container">
+          <div class="eyebrow reveal">From the people who know</div>
+          <div class="testimonial-slider reveal" id="testimonialSlider">
+            <article class="testimonial-slide active"><span class="quote-mark">“</span>
+              <blockquote>Velux understood that we were not just looking for an apartment. They helped us find the pace of life we wanted.</blockquote>
+              <div class="testimonial-person"><span class="avatar">SR</span><span><strong>Samira Rahman</strong><small>Resident, Aurelia House</small></span></div>
+            </article>
+            <article class="testimonial-slide"><span class="quote-mark">“</span>
+              <blockquote>There is a quiet confidence in every detail. We felt looked after before we even received the keys.</blockquote>
+              <div class="testimonial-person"><span class="avatar">TM</span><span><strong>Tanvir Mahmud</strong><small>Resident, The Linden</small></span></div>
+            </article>
+            <article class="testimonial-slide"><span class="quote-mark">“</span>
+              <blockquote>They helped us see the difference between a beautiful property and a beautiful life.</blockquote>
+              <div class="testimonial-person"><span class="avatar">NS</span><span><strong>Nabila Sultana</strong><small>Owner, Noma Bay Villas</small></span></div>
+            </article>
+            <div class="testimonial-controls"><button id="testimonialPrev" aria-label="Previous testimonial">←</button><span id="testimonialIndex">01 / 03</span><button id="testimonialNext" aria-label="Next testimonial">→</button></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="journal" class="journal-section section-pad section-dark">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div>
+              <div class="eyebrow eyebrow-light">From the journal</div>
+              <h2>Notes on<br><em>living well.</em></h2>
+            </div><a class="text-link light-link" href="#contact">Read all stories <span>↗</span></a>
+          </div>
+          <div class="article-grid">
+            <article class="article-card reveal" data-title="The new language of quiet luxury" data-location="Perspective · Aug 21, 2026" data-description="Why the most meaningful homes are moving away from spectacle and towards sensory, lasting details." data-image="assets/img/blog/1.jpg">
+              <div class="article-image-wrap"><img src="assets/img/blog/1.jpg" alt="Quiet luxury interior"></div><small>Perspective · Aug 21, 2026</small>
+              <h3>The new language of quiet luxury</h3>
+              <p>Why the most meaningful homes are moving away from spectacle and towards sensory, lasting details.</p><a class="article-read">Read story →</a>
+            </article>
+            <article class="article-card reveal" data-title="Designing a home around the way you live" data-location="Inside Velux · Jul 14, 2026" data-description="A practical guide to making space for rituals, hosting, rest and the beautiful in-between." data-image="assets/img/blog/2.jpg">
+              <div class="article-image-wrap"><img src="assets/img/blog/2.jpg" alt="Designed living room"></div><small>Inside Velux · Jul 14, 2026</small>
+              <h3>Designing a home around the way you live</h3>
+              <p>A practical guide to making space for rituals, hosting, rest and the beautiful in-between.</p><a class="article-read">Read story →</a>
+            </article>
+            <article class="article-card reveal" data-title="A field note from the coast" data-location="Journal · Jun 02, 2026" data-description="On slow mornings, salt air and why the most restorative places begin with their setting." data-image="assets/img/blog/3.jpg">
+              <div class="article-image-wrap"><img src="assets/img/blog/3.jpg" alt="Coastal retreat"></div><small>Journal · Jun 02, 2026</small>
+              <h3>A field note from the coast</h3>
+              <p>On slow mornings, salt air and why the most restorative places begin with their setting.</p><a class="article-read">Read story →</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section section-pad">
+        <div class="container contact-grid">
+          <div class="reveal">
+            <div class="eyebrow">The next chapter</div>
+            <h2>Let’s find<br><em>your place.</em></h2>
+            <p>Tell us a little about what you are looking for. Our private client team will be in touch within one working day.</p>
+            <div class="contact-detail"><small>Private client team</small><a href="https://cheaphostings.org/cdn-cgi/l/email-protection#7018151c1c1f3026151c0508150304110415035e131f1d"><span class="__cf_email__" data-cfemail="49212c252526091f2c253c312c3a3d283d2c3a672a2624">[email&#160;protected]</span></a><a href="tel:+8801800123456">+880 1800 123 456</a></div>
+          </div>
+          <div class="contact-form-wrap reveal">
+            <form id="inquiryForm">
+              <div class="form-topline"><span>Begin a conversation</span><span>01 - 04</span></div><label>Your name<input required placeholder="How should we call you?"></label><label>Email address<input required type="email" placeholder="you@example.com"></label><label>What brings you here?<select required>
+                  <option value="">Select an option</option>
+                  <option>Looking for a residence</option>
+                  <option>Interested in a retreat</option>
+                  <option>Design advisory</option>
+                </select></label><label>Tell us more<textarea rows="3" placeholder="A few words about what you have in mind..."></textarea></label><button class="button button-primary" type="submit">Send enquiry <span>↗</span></button>
+              <p class="form-success" id="formSuccess">Thank you - we’ll be in touch.</p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section class="map-section">
+      <div class="container map-wrap">
+        <div class="map-copy reveal">
+          <div class="eyebrow">Visit the studio</div>
+          <h2>Find us in<br><em>the city.</em></h2>
+          <p>Our private client studio is open by appointment for a quieter conversation about your next address.</p><a class="text-link" href="https://maps.google.com/?q=Gulshan,Dhaka" target="_blank" rel="noreferrer">Get directions <span>↗</span></a>
+        </div>
+		<div class="map-frame reveal"><iframe title="Velux Estates location map" src="https://www.openstreetmap.org/export/embed.html?bbox=-74.025%2C40.700%2C-73.975%2C40.775&amp;layer=mapnik&amp;marker=40.758%2C-73.985"></iframe><span class="map-pin">Velux<br><small>Manhattan Â· New York</small></span></div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container footer-top"><a class="brand-mark brand-light" href="#top"><span class="brand-symbol"><span></span></span><span class="brand-name">Velux</span><span class="brand-sub">ESTATES</span></a>
+        <div class="footer-tagline">Considered places.<br><em>Beautifully lived.</em></div>
+        <div class="footer-social"><a href="#top">◎</a><a href="#top">◉</a><a href="#top">◌</a></div>
+      </div>
+      <div class="container footer-bottom">
+        <div class="footer-legal"><span>© 2026 Velux Estates. All rights reserved.Developed by Muhammad Khorshed Alam</span><span>RERA registered · Built with intention</span></div>
+        <div class="footer-links"><a href="#top">Privacy policy</a><a href="#top">Terms of use</a><a href="#top">Sitemap</a><a href="#contact">Contact us</a></div>
+        <div class="footer-credit">Made for living well <span>↗</span></div>
+      </div>
+    </footer>
+
+    <div class="video-modal" id="videoModal" aria-hidden="true">
+      <div class="video-modal-inner"><button id="videoClose" aria-label="Close film">×</button><iframe id="videoFrame" title="Velux Estates film" src="https://www.youtube.com/embed/ScMzIvxBSi4?rel=0" allowfullscreen></iframe></div>
+    </div>
+
+    <div class="modal-backdrop" id="detailModal" aria-hidden="true">
+      <div class="detail-modal"><button class="modal-close" id="modalClose" aria-label="Close detail">×</button>
+        <div class="modal-image" id="modalImage">
+          <div class="modal-image-copy"><small id="modalLocation"></small>
+            <h2 id="modalTitle"></h2>
+          </div>
+        </div>
+        <div class="modal-content">
+          <div class="eyebrow">Velux details</div>
+          <h3 id="modalDescription"></h3>
+          <p>Our team would love to share the full story, floor plans and private viewing availability with you. Begin a conversation and we will curate the next step around your needs.</p><a class="button button-primary" href="#contact" id="modalCta">Start a conversation <span>↗</span></a>
+        </div>
+      </div>
+    </div>
+
+    <button class="floating-search" onclick="document.querySelector('#projects').scrollIntoView({behavior:'smooth'})" aria-label="Explore residences">⌕</button>
+    <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"d5067365fe2244deadba33f0d1c9c822","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+
+
+</html>
